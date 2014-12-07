@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E98FE90186DFC6C0023DDC4 /* GameOverScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E98FE8F186DFC6C0023DDC4 /* GameOverScene.m */; };
 		2E9BC0C8186532BB00562344 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E9BC0C7186532BB00562344 /* Foundation.framework */; };
 		2E9BC0CA186532BB00562344 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E9BC0C9186532BB00562344 /* CoreGraphics.framework */; };
 		2E9BC0CC186532BB00562344 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E9BC0CB186532BB00562344 /* UIKit.framework */; };
@@ -24,6 +25,9 @@
 		2E9BC0F0186532BB00562344 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E9BC0CB186532BB00562344 /* UIKit.framework */; };
 		2E9BC0F8186532BB00562344 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2E9BC0F6186532BB00562344 /* InfoPlist.strings */; };
 		2E9BC0FA186532BB00562344 /* SpriteKitSimpleGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9BC0F9186532BB00562344 /* SpriteKitSimpleGameTests.m */; };
+		2E9BC107186533AA00562344 /* background-music-aac.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E9BC104186533AA00562344 /* background-music-aac.caf */; };
+		2E9BC108186533AA00562344 /* pew-pew-lei.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E9BC105186533AA00562344 /* pew-pew-lei.caf */; };
+		2E9BC109186533AA00562344 /* sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 2E9BC106186533AA00562344 /* sprites.atlas */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E98FE8E186DFC6C0023DDC4 /* GameOverScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameOverScene.h; sourceTree = "<group>"; };
+		2E98FE8F186DFC6C0023DDC4 /* GameOverScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameOverScene.m; sourceTree = "<group>"; };
 		2E9BC0C4186532BB00562344 /* SpriteKitSimpleGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpriteKitSimpleGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E9BC0C7186532BB00562344 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2E9BC0C9186532BB00562344 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,6 +66,9 @@
 		2E9BC0F5186532BB00562344 /* SpriteKitSimpleGameTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpriteKitSimpleGameTests-Info.plist"; sourceTree = "<group>"; };
 		2E9BC0F7186532BB00562344 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2E9BC0F9186532BB00562344 /* SpriteKitSimpleGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpriteKitSimpleGameTests.m; sourceTree = "<group>"; };
+		2E9BC104186533AA00562344 /* background-music-aac.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "background-music-aac.caf"; sourceTree = "<group>"; };
+		2E9BC105186533AA00562344 /* pew-pew-lei.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pew-pew-lei.caf"; sourceTree = "<group>"; };
+		2E9BC106186533AA00562344 /* sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = sprites.atlas; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +103,8 @@
 				2E9BC0F3186532BB00562344 /* SpriteKitSimpleGameTests */,
 				2E9BC0C6186532BB00562344 /* Frameworks */,
 				2E9BC0C5186532BB00562344 /* Products */,
+				2E9BC103186533AA00562344 /* Sounds */,
+				2E9BC106186533AA00562344 /* sprites.atlas */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +139,8 @@
 				2E9BC0DF186532BB00562344 /* ViewController.m */,
 				2E9BC0E1186532BB00562344 /* MyScene.h */,
 				2E9BC0E2186532BB00562344 /* MyScene.m */,
+				2E98FE8E186DFC6C0023DDC4 /* GameOverScene.h */,
+				2E98FE8F186DFC6C0023DDC4 /* GameOverScene.m */,
 				2E9BC0E4186532BB00562344 /* Spaceship.png */,
 				2E9BC0E6186532BB00562344 /* Images.xcassets */,
 				2E9BC0D0186532BB00562344 /* Supporting Files */,
@@ -162,6 +175,15 @@
 				2E9BC0F6186532BB00562344 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2E9BC103186533AA00562344 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				2E9BC104186533AA00562344 /* background-music-aac.caf */,
+				2E9BC105186533AA00562344 /* pew-pew-lei.caf */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,10 +262,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E9BC109186533AA00562344 /* sprites.atlas in Resources */,
+				2E9BC107186533AA00562344 /* background-music-aac.caf in Resources */,
 				2E9BC0D4186532BB00562344 /* InfoPlist.strings in Resources */,
 				2E9BC0E7186532BB00562344 /* Images.xcassets in Resources */,
 				2E9BC0E5186532BB00562344 /* Spaceship.png in Resources */,
 				2E9BC0DD186532BB00562344 /* Main.storyboard in Resources */,
+				2E9BC108186533AA00562344 /* pew-pew-lei.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +287,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E98FE90186DFC6C0023DDC4 /* GameOverScene.m in Sources */,
 				2E9BC0E3186532BB00562344 /* MyScene.m in Sources */,
 				2E9BC0E0186532BB00562344 /* ViewController.m in Sources */,
 				2E9BC0DA186532BB00562344 /* AppDelegate.m in Sources */,
@@ -392,11 +418,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SpriteKitSimpleGame/SpriteKitSimpleGame-Prefix.pch";
 				INFOPLIST_FILE = "SpriteKitSimpleGame/SpriteKitSimpleGame-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SpriteKitSimpleGame/SpriteKitSimpleGame-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -406,11 +436,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SpriteKitSimpleGame/SpriteKitSimpleGame-Prefix.pch";
 				INFOPLIST_FILE = "SpriteKitSimpleGame/SpriteKitSimpleGame-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SpriteKitSimpleGame/SpriteKitSimpleGame-Bridging-Header.h";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -476,6 +509,7 @@
 				2E9BC0FF186532BB00562344 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2E9BC100186532BB00562344 /* Build configuration list for PBXNativeTarget "SpriteKitSimpleGameTests" */ = {
 			isa = XCConfigurationList;
@@ -484,6 +518,7 @@
 				2E9BC102186532BB00562344 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
